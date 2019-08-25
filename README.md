@@ -8,3 +8,4 @@
 ### Progress
 - Watched Lecture 1A
 - Read 1.1
+- Completed 1.1 exercises
