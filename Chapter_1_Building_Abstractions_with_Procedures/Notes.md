@@ -30,3 +30,11 @@
 - scope - set of expressions for which a binding defines a name
 - block structure - nesting of definitions
 - lexical scoping - procedures can be enclosed with access to free variables
+
+### 1.2 - Procedures and the Processes They Generate
+- recursive process - characterized by a chain of deferred operations
+- linear recursive process - length of the chain of deferred multiplications, and hence the amount of information needed to keep track of it, grows linearly with n 
+- iterative process - summarized by a fixed number of state variables
+- recursive process vs. recursive procedure
+    - A recursive procedure doesn't necessarily have a recursive process, it can be an iterative process. This is known as tail-recursive.
+    - Scheme is able to execute an iterative process in constant space, even if the iterative process is described by a recursive procedure.
